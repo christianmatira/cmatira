@@ -60,7 +60,9 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: cmatira_com
-
+      - name: list files
+        run: |
+          - ls
       - name: Publish to Cloudflare 
         uses: cloudflare/pages-action@1
         with:
