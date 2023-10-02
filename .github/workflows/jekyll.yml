@@ -60,6 +60,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: cmatira_com
+          path: cmatira_com
       - name: list files
         run: |
           ls
@@ -69,4 +70,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: cmatira-prod 
-          directory: ./cmatira_com 
+          directory: ./cmatira_com
