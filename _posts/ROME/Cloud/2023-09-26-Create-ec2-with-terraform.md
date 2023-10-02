@@ -308,9 +308,7 @@ To know public IP upon creation, we can output the instance IP
 output "wordpress_ip" {
   value = ["${aws_instance.wordpress.public_ip}"]
 }
-```
-
-In case you encounter an error about an optin 
+``` 
 
 ### TLDR
 
