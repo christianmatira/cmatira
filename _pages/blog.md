@@ -3,7 +3,7 @@ layout: categories
 permalink: /blog
 entries_layout: grid
 author_profile: false
-title: Blog
+title: Blogs
 ---
 
 # Rome wasn't built in a day

@@ -5,7 +5,7 @@ main:
  # Soon 
  # - title: "AI Blog"
  #   url: ai
-  - title: "Blog"
+  - title: "Blogs"
     url: blog
   - title: About
     url: about
