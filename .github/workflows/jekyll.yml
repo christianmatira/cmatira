@@ -52,7 +52,8 @@ jobs:
           name: cmatira_com
           path: ./_site
           retention-days: 14
-  deploy: 
+  deploy:
+    needs: build
     runs-on: ubuntu-latest 
     steps: 
       - name: Download artifact
