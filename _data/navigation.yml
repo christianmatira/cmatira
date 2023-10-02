@@ -1,0 +1,19 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+ # Soon 
+ # - title: "AI Blog"
+ #   url: ai
+  - title: "Blog"
+    url: blog
+  - title: About
+    url: about
+topic_categories:
+  - title: "Blog topics"
+    children:
+      - title: "AWS"
+        url: /blog/#AWS
+      - title: "Terraform"
+        url: /blog/#terraform
+      
