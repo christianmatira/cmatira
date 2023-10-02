@@ -62,7 +62,7 @@ jobs:
           name: cmatira_com
       - name: list files
         run: |
-          - ls
+          ls
       - name: Publish to Cloudflare 
         uses: cloudflare/pages-action@1
         with:
