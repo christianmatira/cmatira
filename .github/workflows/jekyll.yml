@@ -46,7 +46,10 @@ jobs:
           JEKYLL_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v3
+        with:
+          name: cmatira_com
+          path: ./_site
 
   # Deployment job (comment this for now I want to deploy in cloudfare)
 #  deploy:
